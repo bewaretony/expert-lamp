@@ -99,6 +99,7 @@
 		<path id="bottomPath" d="M0 500 C0 615 500 615 500 500" />
 	</defs>
 	<use xlink:href="#potato" x="250" y="150" />
+	<path d="M360 195 C360 50, 150 50, 150 175 c-60 0 -100 20 0 20 z" style="fill: red; stroke: black" />
 	<g style="fill: red; stroke: black; stroke-width: 2; font-family: monospace">
 		<text font-size="110" text-anchor="middle">
 			<textPath xlink:href="#topPath" startOffset="280">
