@@ -2,8 +2,8 @@
 <svg width="500" height="650" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<defs>
 		<pattern id="potatoSkin" width="200" height="200" patternUnits="userSpaceOnUse">
-			<rect x="0" y="0" width="200" height="200" style="fill: blanchedalmond" />
-			<g style="fill: tan">
+			<rect x="0" y="0" width="200" height="200" style="fill: white" />
+			<g style="fill: black">
 				<circle cx="179" cy="5" r="3" />
 				<circle cx="96" cy="111" r="3" />
 				<circle cx="72" cy="111" r="3" />
@@ -49,10 +49,11 @@
 				<circle cx="193" cy="165" r="3" />
 				<circle cx="162" cy="124" r="3" />
 				<circle cx="47" cy="95" r="3" />
+				<circle cx="150" cy="50" r="3" />
 			</g>
 		</pattern>
 		<pattern id="potatoLegs" width="6" height="6" style="stroke: black; stroke-width: 2" patternUnits="userSpaceOnUse">
-			<rect x="0" y="0" width="6" height="6" style="fill: gray; stroke: none" />
+			<rect x="0" y="0" width="6" height="6" style="fill: black; stroke: none" />
 			<line x1="0" y1="3" x2="6" y2="3" />
 		</pattern>
 		<g id="potato">
@@ -81,11 +82,7 @@
 				<ellipse cx="55" cy="345" rx="5" ry="2" />-->
 			</g>
 			<rect x="-100" y="0" width="200" height="270" style="fill: url(#potatoSkin); stroke: black" rx="90" ry="90" />
-			<g style="fill: black">
-				<circle cx="-40" cy="80" r="10" />
-				<circle cx="30" cy="80" r="10" />
-			</g>
-			<g style="stroke: black; fill: none">
+			<g style="stroke: black; fill: white">
 				<circle cx="-35" cy="80" r="30" />
 				<circle cx="35" cy="80" r="30" />
 				<line x1="-5" y1="80" x2="5" y2="80" />
@@ -94,17 +91,20 @@
 				<path d="M0 80 l-20 50 l20 0" />
 				<path d="M-65 135 l-10 10 l5 -5 c10 25, 120 25, 135 0 l5 5 l-10 -10" />
 			</g>
+			<g style="fill: black">
+				<circle cx="-40" cy="80" r="10" />
+				<circle cx="30" cy="80" r="10" />
+			</g>
 		</g>
 		<path id="topPath" d="M40 200 C0 50 500 50 460 200" />
 		<path id="bottomPath" d="M0 530 C0 645 500 645 510 530" />
 	</defs>
 	<use xlink:href="#potato" x="250" y="180" />
-	<g style="fill: saddlebrown; stroke: black">
+	<g style="fill: black">
 		<rect x="130" y="180" width="240" height="40" />
 		<rect x="180" y="110" width="140" height="70" />
-		<rect x="180" y="170" width="140" height="10" style="fill: red" />
 	</g>
-	<g style="fill: red; stroke: black; stroke-width: 2; font-family: monospace">
+	<g style="fill: black; stroke-width: 2; font-family: monospace">
 		<text font-size="110" text-anchor="middle">
 			<textPath xlink:href="#topPath" startOffset="280">
 				TAT R
