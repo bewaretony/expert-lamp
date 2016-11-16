@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<svg width="500" height="620" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="500" height="650" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<defs>
 		<pattern id="potatoSkin" width="200" height="200" patternUnits="userSpaceOnUse">
 			<rect x="0" y="0" width="200" height="200" style="fill: blanchedalmond" />
@@ -96,13 +96,13 @@
 			</g>
 		</g>
 		<path id="topPath" d="M40 200 C0 50 500 50 460 200" />
-		<path id="bottomPath" d="M0 500 C0 615 500 615 500 500" />
+		<path id="bottomPath" d="M0 530 C0 645 500 645 510 530" />
 	</defs>
-	<use xlink:href="#potato" x="250" y="150" />
+	<use xlink:href="#potato" x="250" y="180" />
 	<g style="fill: saddlebrown; stroke: black">
-		<rect x="130" y="150" width="240" height="40" />
-		<rect x="180" y="80" width="140" height="70" />
-		<rect x="180" y="140" width="140" height="10" style="fill: red" />
+		<rect x="130" y="180" width="240" height="40" />
+		<rect x="180" y="110" width="140" height="70" />
+		<rect x="180" y="170" width="140" height="10" style="fill: red" />
 	</g>
 	<g style="fill: red; stroke: black; stroke-width: 2; font-family: monospace">
 		<text font-size="110" text-anchor="middle">
@@ -117,5 +117,5 @@
 		</text>
 	</g>
 	<use xlink:href="#potato" transform="translate(344, 14) scale(0.29) rotate(17)" />
-	<use xlink:href="#potato" transform="translate(230, 505) scale(0.29) rotate(5)" />
+	<use xlink:href="#potato" transform="translate(230, 535) scale(0.29) rotate(5)" />
 </svg>
